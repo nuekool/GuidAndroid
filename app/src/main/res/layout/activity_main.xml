@@ -6,7 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.nk.guidandroid.view.BaseShapeView
+    <!--<com.nk.guidandroid.view.BaseShapeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+    <com.nk.guidandroid.view.CameraView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

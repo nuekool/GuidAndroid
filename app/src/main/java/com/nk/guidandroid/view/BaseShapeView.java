@@ -34,6 +34,7 @@ public class BaseShapeView extends View{
     private int radius = (int) D.dp2px(50);
     private int radius2 = (int) D.dp2px(120);
     private Paint mPaint, mPaint_time, mPaint_h, mPaint_m, mPaint_s;
+    private Calendar cal = Calendar.getInstance();
     {
         //初始化画笔
         mPaint = new Paint();
@@ -225,7 +226,6 @@ public class BaseShapeView extends View{
     }
 
     private void drawClockLine(Canvas canvas, int x, int y){
-        Calendar cal = Calendar.getInstance();
         int hour = cal.get(Calendar.HOUR);//Calendar.HOUR获取的是12小时制，Calendar.HOUR_OF_DAY获取的是24小时制
         int min = cal.get(Calendar.MINUTE);
         int second = cal.get(Calendar.SECOND);
