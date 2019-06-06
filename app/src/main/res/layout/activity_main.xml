@@ -9,8 +9,15 @@
     <!--<com.nk.guidandroid.view.BaseShapeView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>-->
-    <com.nk.guidandroid.view.CameraView
+    <!--<com.nk.guidandroid.view.CameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-
+    <!--<WebView
+        android:id="@+id/m_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
 </LinearLayout>
